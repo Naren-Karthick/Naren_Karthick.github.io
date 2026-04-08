@@ -50,6 +50,22 @@
   .avatar-ring{position:absolute;inset:-8px;border-radius:24px;border:1px solid rgba(124,106,255,0.3);animation:pulse 3s ease-in-out infinite;}
   .status-dot{margin-top:14px;display:flex;align-items:center;gap:8px;font-size:11px;color:var(--muted);}
   .dot{width:7px;height:7px;border-radius:50%;background:var(--accent3);box-shadow:0 0 6px var(--accent3);animation:blink 2s ease-in-out infinite;}
+  .avatar-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  .avatar-box {
+  border: 2px solid #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
 
   /* SECTIONS */
   section{padding:70px 0;border-top:1px solid var(--border);}
